@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>¿Así o no te sirve jajaja?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff6f61;
+            padding: 20px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        #respuesta {
+            font-size: 24px;
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff483b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¿Así o nomessi jajaja?</h1>
+    </header>
+    <div class="container">
+        <p>¡Hola bella!</p>
+        <p>Desde el primer momento en que te vi, supe que eras especial para mí. 
+            De vuelta yo, el chico que le da miedo la gente,
+            sigo acá presente en lo real y hasta en tu mente,
+            el que está conquistando a una chica sobresaliente,
+            con la sonrisa y la mirada reluciente,
+            la nena que me deja siempre sonriente je.
+        </p>
+        <p>Entonces, ¿Puedo ser tu novio?</p>
+        <button id="btnRespuesta" onclick="responder('¡Sí, podes ser mi novio, y quiero ser tu novia!')">Shi</button>
+        <button id="btnRespuesta" onclick="responder('Si, puedo ser tu novia, nene lindo')">Si</button>
+        <button id="btnRespuesta" onclick="responder('No seas maaala, ya arriesgué, así que quiero ganar con vos jajaja')">Nop</button>
+        <p id="respuesta"></p>
+    </div>
+    <script>
+        function responder(respuesta) {
+            document.getElementById("respuesta").innerHTML = respuesta;
+        }
+    </script>
+    
+</body>
+<img src="gorda hermosa.jpeg" alt="Imagen en el centro" width="500" height="500">
+<img src="mi chiquita.jpeg" alt="Imagen en el centro" width="500" height="500">
+<img src="hermosa.jpeg" alt="Imagen en el centro" width="500" height="500">
+<img src="mi nena.jpeg" alt="Imagen en el centro" width="500" height="500">
+</html>
